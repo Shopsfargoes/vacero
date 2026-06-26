@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,25 +13,105 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* ===========================
+           PRIVACY POLICY PAGE
+        ============================ */
+
+        .policy-page{
+            max-width:900px;
+            margin:120px auto 80px;
+            padding:0 48px;
+        }
+
+        .policy-page h1{
+            font-family:'Barlow Condensed',sans-serif;
+            font-size:clamp(3rem,6vw,5rem);
+            font-weight:900;
+            text-transform:uppercase;
+            line-height:.95;
+            margin-bottom:12px;
+        }
+
+        .policy-page .last-updated{
+            color:#777;
+            font-size:.9rem;
+            margin-bottom:40px;
+        }
+
+        .policy-page h2{
+            font-family:'Barlow Condensed',sans-serif;
+            font-size:clamp(1.8rem,3vw,2.4rem);
+            margin-top:48px;
+            margin-bottom:18px;
+            text-transform:uppercase;
+        }
+
+        .policy-page p{
+            font-family:'Inter',sans-serif;
+            font-size:1rem;
+            line-height:1.8;
+            color:#444;
+            margin-bottom:18px;
+        }
+
+        .policy-page ul{
+            margin:0 0 24px 24px;
+        }
+
+        .policy-page li{
+            font-family:'Inter',sans-serif;
+            line-height:1.8;
+            margin-bottom:12px;
+            color:#444;
+        }
+
+        .policy-page strong{
+            color:#000;
+        }
+
+        .policy-page a{
+            color:#ff7a00;
+            text-decoration:none;
+        }
+
+        .policy-page a:hover{
+            text-decoration:underline;
+        }
+
+        @media(max-width:768px){
+
+            .policy-page{
+                margin-top:90px;
+                padding:0 24px;
+            }
+
+            .policy-page h1{
+                font-size:3rem;
+            }
+
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <!-- Copy your existing navigation/header from index.html here -->
+    <!-- Copy your existing header/navbar from index.html -->
 
-    <main class="container">
+    <main>
 
         <section class="policy-page">
 
             <h1>Privacy Policy</h1>
 
-            <p><strong>Last Updated:</strong> June 2026</p>
+            <p class="last-updated">
+                <strong>Last Updated:</strong> June 2026
+            </p>
 
             <p>
-                VACERO LTD ("we", "our", or "us") is committed to protecting your privacy
-                and handling your personal information responsibly. This Privacy Policy
-                explains how we collect, use, store, and protect your personal data when
-                you visit our website or contact us.
+                VACERO LTD ("we", "our", or "us") is committed to protecting your privacy and handling your personal information responsibly. This Privacy Policy explains how we collect, use, store, and protect your personal data when you visit our website or contact us.
             </p>
 
             <h2>Company Details</h2>
@@ -42,17 +123,18 @@
             </p>
 
             <p>
-                By using our website, you agree to the practices described in this Privacy
-                Policy.
+                By using our website, you agree to the practices described in this Privacy Policy.
             </p>
 
             <h2>Information We Collect</h2>
+
+            <p>We may collect the following information when you contact us or use our website:</p>
 
             <ul>
                 <li>Your name</li>
                 <li>Email address</li>
                 <li>Any information you include in your enquiries or messages.</li>
-                <li>Technical information such as your IP address, browser type, device information, and website usage data collected through cookies or analytics tools.</li>
+                <li>Technical information such as your IP address, browser type, device information and website usage data collected through cookies or analytics tools.</li>
             </ul>
 
             <h2>How We Use Your Information</h2>
@@ -62,21 +144,18 @@
             <ul>
                 <li>Respond to your enquiries and provide customer support.</li>
                 <li>Fulfil customer requests and assist with product-related issues.</li>
-                <li>Improve our website, products, and services.</li>
+                <li>Improve our website, products and services.</li>
                 <li>Comply with legal and regulatory obligations.</li>
             </ul>
 
             <p>
-                We do <strong>not</strong> sell, rent, or trade your personal information to third parties.
+                We do <strong>not</strong> sell, rent or trade your personal information to third parties.
             </p>
 
             <h2>Purchases Through Amazon</h2>
 
             <p>
-                Our products are sold primarily through Amazon. When you purchase products through Amazon,
-                your personal information is processed according to Amazon's own Privacy Policy. We only
-                receive information necessary to provide customer support and fulfil our obligations relating
-                to your purchase.
+                Our products are sold primarily through Amazon. When you purchase products through Amazon, your personal information is processed according to Amazon's own Privacy Policy. We only receive information necessary to provide customer support and fulfil our obligations relating to your purchase.
             </p>
 
             <h2>Legal Basis for Processing</h2>
@@ -90,15 +169,17 @@
             <h2>Data Security</h2>
 
             <p>
-                We take appropriate technical and organisational measures to safeguard your personal information
-                against unauthorised access, disclosure, alteration, or destruction.
+                We take appropriate technical and organisational measures to safeguard your personal information against unauthorised access, disclosure, alteration or destruction.
+            </p>
+
+            <p>
+                While we strive to protect your information, no method of electronic transmission or storage is completely secure.
             </p>
 
             <h2>Data Retention</h2>
 
             <p>
-                We retain personal information only for as long as necessary to fulfil the purposes described in
-                this Privacy Policy or as required by law.
+                We retain personal information only for as long as necessary to fulfil the purposes outlined in this Privacy Policy or as required by law.
             </p>
 
             <h2>Your Rights</h2>
@@ -107,10 +188,10 @@
 
             <ul>
                 <li>Access your personal information.</li>
-                <li>Correct inaccurate information.</li>
+                <li>Request correction of inaccurate information.</li>
                 <li>Request deletion of your personal data where applicable.</li>
-                <li>Restrict or object to certain processing.</li>
-                <li>Request a copy of your personal data.</li>
+                <li>Restrict or object to certain processing activities.</li>
+                <li>Request a copy of your personal information.</li>
             </ul>
 
             <p>
@@ -120,15 +201,13 @@
             <h2>Cookies</h2>
 
             <p>
-                We may use cookies to improve website performance, analyse traffic, and enhance your browsing experience.
-                You can manage or disable cookies through your browser settings.
+                Our website may use cookies and similar technologies to improve user experience, analyse website traffic and enhance website performance. You can manage or disable cookies through your browser settings.
             </p>
 
             <h2>Third-Party Links</h2>
 
             <p>
-                Our website may contain links to third-party websites. We are not responsible for the content or
-                privacy practices of those websites.
+                Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of external websites.
             </p>
 
             <h2>Contact Us</h2>
@@ -142,15 +221,15 @@
             <h2>Changes to This Privacy Policy</h2>
 
             <p>
-                We may update this Privacy Policy from time to time. Any changes will be posted on this page
-                with an updated revision date.
+                We may update this Privacy Policy from time to time. Any changes will be published on this page with an updated revision date.
             </p>
 
         </section>
 
     </main>
 
-    <!-- Copy your existing footer from index.html here -->
+    <!-- Copy your existing footer from index.html -->
 
 </body>
 </html>
+```
